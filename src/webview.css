@@ -1,0 +1,44 @@
+.container {
+	background-color: var(--joplin-odd-background-color);
+	color: var(--joplin-color);
+	font-size: var(--joplin-font-size);
+	font-family: var(--joplin-font-family);
+}
+
+.toolbarIcon {
+    font-size: var(--joplin-toolbar-icon-size);
+}
+.primary {
+    color: var(--joplin-color);
+}
+.secondary {
+    color: var(--joplin-color-2);
+}
+
+ul {
+	padding-inline-start: 20px;
+}
+
+
+ul { list-style: none; }
+ul li { cursor: pointer; } 
+
+/* ul span { border:1px solid ; width:10px; height:10px; text-align:center;line-height:10px;    display: inline-table;} */
+
+
+.blink {
+	text-align: center;
+	line-height: 50px;
+}
+
+@keyframes blink {
+0% {
+  opacity: 0;
+}
+50% {
+  opacity: .5;
+}
+100% {
+  opacity: 1;
+}
+}

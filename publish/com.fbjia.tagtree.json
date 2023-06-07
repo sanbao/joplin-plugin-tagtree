@@ -1,0 +1,17 @@
+{
+	"manifest_version": 1,
+	"id": "com.fbjia.tagtree",
+	"app_min_version": "2.8",
+	"version": "1.0.0",
+	"name": "tagtree",
+	"description": "支持多层级tag树排序展示，拖拽。tag tree,support level and drag",
+	"author": "shoko",
+	"homepage_url": "https://github.com/sanbao/",
+	"repository_url": "https://github.com/sanbao/tagtree",
+	"keywords": [],
+	"categories": [
+		"tagtree"
+	],
+	"_publish_hash": "sha256:4decb2ba49df83f15b0eddb78866cccfe5d5dba0717de241070d673a273c25b8",
+	"_publish_commit": "main:3a9828cedec5d69d3d8604d1eb6de80744df023a"
+}
