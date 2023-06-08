@@ -1,0 +1,35 @@
+{
+  "name": "joplin-plugin-tagtree",
+  "version": "1.1.0",
+  "description": "Plugin for markdown tagtree.",
+  "scripts": {
+    "dist": "webpack --joplin-plugin-config buildMain && webpack --joplin-plugin-config buildExtraScripts && webpack --joplin-plugin-config createArchive",
+    "prepare": "npm run dist",
+    "update": "npm install -g generator-joplin && yo joplin --update"
+  },
+  "license": "MIT",
+  "keywords": [
+    "joplin-plugin"
+  ],
+  "devDependencies": {
+    "@types/node": "^14.0.14",
+    "chalk": "^4.1.0",
+    "copy-webpack-plugin": "^6.1.0",
+    "fs-extra": "^9.0.1",
+    "glob": "^7.1.6",
+    "on-build-webpack": "^0.1.0",
+    "tar": "^6.0.5",
+    "ts-loader": "^8.3.0",
+    "ts-node": "^10.9.1",
+    "typescript": "4.8.4",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "yargs": "^16.2.0"
+  },
+  "dependencies": {
+    "@types/markdown-it": "^10.0.3",
+    "markdown-it": "^12.0.2",
+    "markdown-it-expand-tabs": "^1.0.13",
+    "markdown-it-admonition": "^1.0.4"
+  }
+}
